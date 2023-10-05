@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterfaceWeb</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
+</head>
+
+<body>
+     <nav class="navbar header  navbar-expand-lg bg-body-tertiary">
+        <div class="img">
+            <img class="Ankita" src="/assets/img/interface_logo.png"  />
+        </div>
+        <div  style="margin-left: 200px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation " style="position: absolute;right: 10px;top: 10px;">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse menu  navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-link ">
+
+                    <li class="nav-item"><a class="nav-link" routerLink="/home" routerLinkActive="active"><span><i
+                        class="fa fa-home" style="padding-right: 3px;font-size: larger;"></i></span>HOME</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" routerLink="/features" routerLinkActive="active"><span><i
+                        class="fa fa-puzzle-piece"
+                        style="padding-right: 3px;font-size: larger;"></i></span>FEATURES</a></li> -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  routerLink="/e_commerce"   role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span><i class="fa fa-puzzle-piece" style="padding-right: 3px;font-size: larger;"></i></span>FEATURES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- <li><a class="dropdown-item" href="section1" routerLink="/e_commerce">E-commerce Platform</a></li> -->
+                                <li><a class="dropdown-item" routerLink="/commercial_web">Commercial Websites</a></li>
+                                <li><a class="dropdown-item"  routerLink="/education" >Education</a></li>
+                                <li><a class="dropdown-item"  routerLink="/sales_lead" >Sales & Lead(CRM)</a></li>
+                                <li><a class="dropdown-item"  routerLink="/finance_accounting" >Finance & Accounting</a></li>
+                                <li><a class="dropdown-item"  routerLink="/inventory_management" >Inventory Management</a></li>
+                                <li><a class="dropdown-item"  routerLink="/organisation_management" >Organization Management</a></li>
+                                <li><a class="dropdown-item"  routerLink="/tourism">Tourism</a></li>
+                                <li><a class="dropdown-item"  routerLink="/marketing">Marketing</a></li>
+                            </ul>
+                        </li> 
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="/services" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span><i class="fa fa-clone" style="padding-right: 3px;font-size: larger;"></i></span>SERVICES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" routerLink="/software_development">Software Development</a></li>
+                            <li><a class="dropdown-item" routerLink="/mobileapp_development">Mobile App Development</a></li>
+                            <li><a class="dropdown-item" routerLink="/commercialweb_development" >Commercial Web Development</a></li>
+                            <li><a class="dropdown-item" routerLink="/it_consulting">IT Consulting</a></li>
+                            <li><a class="dropdown-item" routerLink="/online_training">Online & Corporate Training</a></li>
+                            <li><a class="dropdown-item" routerLink="/onlinedigital_marketing">Online/Digital Marketing</a></li>
+                            <li><a class="dropdown-item" routerLink="/business_solution">Business Solutions</a></li>
+                            <li><a class="dropdown-item" routerLink="/media_advertisement">Media Advertisement</a></li>
+
+                        </ul>
+                    </li> 
+                    <li class="nav-item"><a class="nav-link" routerLink="/portfolios" routerLinkActive="active"><span><i
+                        class="fa fa-user-circle"
+                        style="padding-right: 3px;font-size: larger;"></i></span>PORTFOLIOS</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/clients" routerLinkActive="active"><span><i
+                                class="fa fa-users" style="padding-right: 3px;font-size: larger;"></i></span>CLIENTS</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/careers" routerLinkActive="active"><span>
+                        <i class="fa fa-briefcase" style="padding-right: 3px;font-size: larger;"></i>
+                    </span>CAREERS</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/about_us" routerLinkActive="active"><span>
+                        <i class="fa fa-user" style="padding-right: 3px;font-size: larger;"></i>
+                    </span>ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/contact_us" routerLinkActive="active"><span>
+                        <i class="fa fa-phone" style="padding-right: 3px;font-size: larger;"></i>
+                    </span>CONTACT US</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- <div class="header d-flex align-items-center " >
+       
+        <nav class="menu">
+            <ul class="nav-link d-flex ">
+                <li class="nav-item"><a class="nav-link" routerLink="/home" routerLinkActive="active"><i
+                            class="fa fa-home" style="padding-right: 3px;font-size: larger;"></i>HOME</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/features" routerLinkActive="active"><i
+                            class="fa fa-puzzle-piece" style="padding-right: 3px;font-size: larger;"></i>FEATURES</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/services" routerLinkActive="active" ><i
+                            class="fa fa-clone" style="padding-right: 3px;font-size: larger;"></i>SERVICES</a>
+                           
+                                <ul class="dropdown">
+                                    <li><a href="section1">Software Development</a></li>
+                                    <li><a href="section2">Mobile App Development</a></li>
+                                    <li><a href="#">Commercial Web Development</a></li>
+                                    <li><a href="#">IT Consulting</a></li> 
+                                    <li><a href="#">Online & Corporate Training</a></li>
+                                    <li><a href="#">Online/Digital Marketing</a></li>
+                                     <li><a href="#">Business Solutions</a></li>
+                                     <li><a href="#">Media Advertisement</a></li>
+                                </ul>
+                           
+                        </li>
+                <li class="nav-item"><a class="nav-link" routerLink="/portfolios" routerLinkActive="active"><i
+                            class="fa fa-user-circle" style="padding-right: 3px;font-size: larger;"></i>PORTFOLIOS</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/clients" routerLinkActive="active"><i
+                            class="fa fa-users" style="padding-right: 3px;font-size: larger;"></i>CLIENTS</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/careers" routerLinkActive="active"><i
+                            class="fa fa-briefcase" style="padding-right: 3px;font-size: larger;"></i>CAREERS</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/about_us" routerLinkActive="active"><i
+                            class="fa fa-user" style="padding-right: 3px;font-size: larger;"></i>ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/contact_us" routerLinkActive="active"><i
+                            class="fa fa-phone" style="padding-right: 3px;font-size: larger;"></i>CONTACT US</a></li>
+            </ul>
+        </nav>
+   
+       
+    </div> -->
+    <!-- <div id="section1" class="container-fluid" style="background-color: blueviolet;">
+        <h1>Section 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at the navigation bar while scrolling!</p>
+    </div>
+    <div id="section2" class="container-fluid" style="background-color:brown;">
+        <h1>Section 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at the navigation bar while scrolling!</p>
+    </div> -->
+
+</body>
+
+</html>

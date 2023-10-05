@@ -1,0 +1,18 @@
+.ecommerce-img{
+    width:100px;
+    height:80px;
+}
+.emmerce-card{
+    /* border:1px solid gray; */
+   
+    padding: 20px;
+   box-shadow: 0 0 10px rgb(95, 89, 89);
+   transition: 0.4s ease-in-out;
+   font-size: small;
+}
+
+.emmerce-card:hover{
+    
+    box-shadow: 8px -8px 15px rgba(213, 29, 155, 0.464);
+}
+

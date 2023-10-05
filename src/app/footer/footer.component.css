@@ -1,0 +1,103 @@
+/* .footer {
+   width: 100%;
+   background-color: hsl(204, 52%, 54%) !important;
+   position: sticky;
+   bottom: 0;
+   right: 0;
+   z-index: 999;
+   
+}
+
+.copyright {
+
+   color: white;
+
+}
+
+.copyright a {
+   color: rgb(206, 30, 147);
+}
+
+.copyright {
+
+   margin-top: 20px;
+   margin-left: 10%;
+}
+
+section {
+   margin-top: 10px;
+   margin-right: 10%;
+
+} */
+
+
+@import url('https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:400,400i,600,600i,700,700i');
+
+@import url('https://use.fontawesome.com/releases/v5.1.1/css/all.css');
+
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* .maincont{
+  min-height:500px;
+  padding:0;
+  margin: 0;
+} */
+
+footer{
+  position: relative;
+  padding: 20px;
+  /* bottom:0; */
+  border-top: 2px solid #225378;
+  background-color: rgb(0, 157, 255);
+}
+/* .mainrow{
+  padding-bottom: 10px;
+} */
+/* .sitnavH1,.contactus,.socialM{
+  margin-top: 0;
+  margin-bottom: 15px;
+  color:#225378;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+} */
+.footer-wrapper{
+  display: flex !important;;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.copyright{
+  color: #fff;
+}
+.copyright a{
+  color:#de0e34;
+}
+
+/* ul{
+  list-style: none;
+  margin-bottom: 0px;
+} */
+
+.social-icon a i{
+  color:white;
+  height:40px;
+  width:40px;
+  border:2px solid gray;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  margin:5px;
+  transition: 0.6s ease-in-out;
+}
+
+
+
+.social-icon a i:hover{
+  color: #de0e34;
+}

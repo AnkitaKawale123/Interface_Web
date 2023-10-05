@@ -1,0 +1,165 @@
+.portfolio_item{
+    overflow: hidden;
+    
+   /* border:2px solid red !important; */
+    /* transition: 1s ease-in-out !important; */
+}
+.portfolio_item:hover img {
+    transform:scale(1.2) ;
+    transition: width 0.3s;
+    border:2px solid red !important;
+    
+   
+   
+    /* transition: 1s ease-in !important; */
+}
+
+.portfolio_item img{
+    transition:  1.5s ease-in-out !important;
+}
+/* .item-wrapper:hover img{
+    transform:scale(1.2) ;
+    
+    border:2px solid red !important;
+
+}
+.item-wrapper img{
+    transition: width 0.5s ease-in-out;
+} */
+
+.pro_head{
+    color:rgb(237, 100, 219);
+    text-align: center;
+    text-shadow: 3px 2px red;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+
+/* .pro_head {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #a14e9e;
+  text-transform: uppercase;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  text-shadow: 5px 5px 3px #999;
+} */
+
+figcaption
+{
+  margin:10px 0px;
+  text-align: center;
+  color: #093982;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+img {
+    border: 0px;
+    outline: 0px;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+
+
+/* Use Bootstrap breakpoints for consistency. */
+/* $bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px; */
+
+ /* Crop thumbnail images. */
+/* #gallery {
+  img {
+    height: 75vw;
+    object-fit: cover;
+    
+    @media (min-width: ) {
+      height: 35vw;
+    }
+    
+    @media (min-width: ) {
+      height: 18vw;
+    }
+  }
+} */
+
+ /* Crop images in the coursel */
+/* .carousel-item {
+  img {
+    height: 60vw;
+    object-fit: cover;
+    
+    @media (min-width: ) {
+      height: 350px;
+    }
+  }
+} */
+ /* .modal-body{
+    width: 1200px !important;
+    width: 100%;
+    margin:0 auto;
+    height: 600px !important;
+     border: 2px solid red;
+}  */
+.modal-body{
+    max-width: 1200px !important;
+    /* width: 100%; */
+    margin:0 auto;
+    height: 700px !important;
+    overflow: hidden;
+    background-color:#fff ;
+   
+
+}
+/* .modal-button {
+    top:-20px !important;
+    right: 5%;
+   
+     position: absolute;
+    z-index: 999;   
+} */
+
+.modal-button {
+  top:-20px !important;
+    right: 4%;
+   
+     position: absolute;
+    z-index: 999; 
+ min-width: 40px;
+ height: 40px;
+ padding: 6px;
+  /* color: #fff; */
+  background-color:#ffffffd8;
+}
+
+/* .carousel-item img{
+   
+    height: 100%;
+    width:100%;
+} */
+
+
+/* #exampleModal{
+    height: 100%;
+    width:100%;
+
+} */
+
+
+.pro_title{
+    color: chocolate;
+    text-align: center;
+    
+}
+

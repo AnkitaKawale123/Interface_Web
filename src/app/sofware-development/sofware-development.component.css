@@ -1,0 +1,166 @@
+/* dropdown menu css */
+.header {
+    background: rgb(30, 206, 159); 
+    position:absolute;
+    display:block;
+    margin-top: 5.5rem;
+    /* margin-left: 30%; */
+
+   
+ min-width: 5rem;
+
+ transition: all 0.5s ease;
+ /* margin-top: 1rem; */
+ margin-left:30%;
+ left: 0;
+ 
+}
+.header ul li{
+   list-style-type: none;
+   clear: both;
+   padding: 20px;
+   width: 100%;
+   
+  
+}
+.header ul li a{
+      
+       color:white;
+       text-decoration: none;
+       
+}
+.header ul li a:hover{
+   padding: 2px;
+   border-style: solid  ;
+   color:rgb(226, 43, 150) ;
+   border-color: rgb(226, 43, 150);
+   /* background-color: blueviolet; */
+ }
+  
+ .pro_head{
+   color:#a14e9e;
+   text-align: center;
+   text-shadow: 3px 2px rgba(255, 0, 0, 0.604);
+   font-size: 50px;
+   margin-top: 100px;
+   margin-bottom: 40px;
+
+}
+.service_txt h3 {
+
+ font-size: 20px;
+ color: #08979D;
+ padding: 5px 0;
+ font-weight: 600;
+
+}
+
+.service_txt p {
+ display: block;
+ font-size: 15px;
+ color: #555;
+ margin: 10px 10px ;
+ padding: 0;
+ line-height: 24px;
+ text-align: justify;
+ color: #666666;
+ font-weight: 400;
+}
+.fullbody {
+ width: 100%;
+ 
+
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+ background-color: transparent;
+ /* height: 300px;
+ width:300px; */
+
+ perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+ position: relative;
+ width: 200px;
+ height: 160px;
+ text-align: center;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+ border:3px solid tomato;
+
+}
+.flip-box-inner img{
+height: 100%;
+width:100%;
+
+
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+ transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ -webkit-backface-visibility: hidden; /* Safari */
+ backface-visibility: hidden;
+ 
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+ background-color: #bbb;
+ color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+ background-color:tomato;
+ color: white;
+ transform: rotateY(180deg);
+
+
+}
+.flip-design{
+ overflow: hidden;
+}
+.bg-color
+{
+ background-image:  linear-gradient(90deg, #da2525, #317081);
+ 
+ /* background-color: red;
+  */
+}
+.btn{
+ border:2px solid rgb(100, 53, 186)!important;
+ background-color: rgba(143, 20, 95, 0.842);
+ color: #fff;
+ margin-left: 20px;
+
+}
+
+.modal-body{
+ max-width: 1200px !important;
+ /* width: 100%; */
+ margin:0 auto;
+ height: 700px !important;
+ overflow: hidden;
+ background-color:#fff ;
+
+
+}
+.flip_wrapper{
+   display:flex ;
+   justify-content:space-evenly ;
+    flex-wrap: wrap;
+    gap:5px;
+    
+    /* justify-content: center; */
+  }
